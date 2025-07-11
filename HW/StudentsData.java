@@ -13,7 +13,7 @@ class Student{
       System.out.print("Name: "+this.name+"\nRoll No: "+this.rollNo);
   }
 
-{
+}
 
 
 
@@ -22,9 +22,9 @@ class Student{
 public class StudentsData{
   public static void main( String[] args){
         Student s1 = new Student("Riya", 1);
-        Student s1 = new Student("Ruhi", 2);
+        Student s2 = new Student("Ruhi", 2);
 
-        s1.dispalyDetails()
-        s2.displayDetails()
+        s1.displayDetails();
+        s2.displayDetails();
   }
 }
