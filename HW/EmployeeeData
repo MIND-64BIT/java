@@ -1,0 +1,28 @@
+
+
+class Employee{
+    static String companyName = "My Company";
+    
+    String employeeName;
+    int id;
+
+    static void changeCompnayName(String newName){
+        companyName = newName;
+    }
+}
+
+
+
+public class EmployeeeData {
+    public static void main(String[] args) {
+        Employee em1 = new Employee();
+        Employee em2 = new Employee();
+
+        System.out.println(em1.companyName);
+        
+        Employee.changeCompnayName("My New Company");
+        
+        System.out.println(em2.companyName);
+
+    }
+}
