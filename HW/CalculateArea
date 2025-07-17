@@ -1,0 +1,26 @@
+class RectangleArea{
+
+  public RectangleArea(){
+    System.out.println("Default Area: 1");
+  }
+
+  public RectangleArea(double a, double b){
+    System.out.println("Rectangle Area: "+a*b);
+  } 
+    
+
+}
+
+public class CalculateArea{
+
+  public static void main(String[] args){
+
+    RectangleArea a1 = new RectangleArea();
+    RectangleArea a2 = new RectangleArea(5, 7);
+  
+  }
+
+
+}
+
+
